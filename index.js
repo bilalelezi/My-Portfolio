@@ -11,5 +11,7 @@ exports.get = function(event, context, callback) {
     headers: {'content-type': 'text/html'}
   };
 
+  console.log("in the js export.get function")
+  
   callback(null, result);
 };
